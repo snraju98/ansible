@@ -1,0 +1,5 @@
+- name: demo on debug
+  hosts: frontend # target server 
+  tasks: # tasks == module == collection
+  - name: hello world
+    debug:
