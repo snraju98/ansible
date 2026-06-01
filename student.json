@@ -1,0 +1,41 @@
+{
+    "students": [
+        {
+            "firstName": "nagaraju",
+            "Lastname": "s",
+            "addresses": [
+                {
+                    "type": "perm",
+                    "street": "102",
+                    "apartment": "balaji apartments",
+                    "city": "hyd"
+                },
+                {
+                    "type": "current",
+                    "street": "102",
+                    "apartment": "balaji apartments",
+                    "city": "hyd"
+                }
+            ]
+        },
+        {
+            "firstName": "nagaraju",
+            "Lastname": "s",
+            "addresses": [
+                {
+                    "type": "perm",
+                    "street": "102",
+                    "apartment": "balaji apartments",
+                    "city": "hyd"
+                },
+                {
+                    "type": "current",
+                    "street": "102",
+                    "apartment": "balaji apartments",
+                    "city": "hyd"
+                }
+            ]
+        }
+    ]
+    
+}

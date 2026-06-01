@@ -1,0 +1,27 @@
+- name: "nagaraju s"
+  dob: "1998-01-01"
+  mobile: "99999999"
+  addresses:
+  - type: perm
+    street: 101
+    appartmentName: "Balaji Appartments"
+    city: "HYD"
+
+  - type: current
+    street: 101
+    appartmentName: "Balaji Appartments"
+    city: "HYD"
+
+- name: "nagaraju s"
+  dob: "1998-01-01"
+  mobile: "99999999"
+  addresses:
+  - type: perm
+    street: 101
+    appartmentName: "Balaji Appartments"
+    city: "HYD"
+
+  - type: current
+    street: 101
+    appartmentName: "Balaji Appartments"
+    city: "HYD"
