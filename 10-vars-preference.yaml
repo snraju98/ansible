@@ -1,7 +1,7 @@
 - name: variable preferene
   hosts: frontend
-  vars:
-    full_name: "nagu from play"
+  # vars:
+  #   full_name: "nagu from play"
   # vars_files:
   # - course.yaml
   # vars_prompt:
@@ -20,3 +20,4 @@
 # 2. task level
 # 3. vars_files
 # 4. prompt
+# 5.play
