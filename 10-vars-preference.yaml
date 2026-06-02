@@ -1,0 +1,16 @@
+- name: variable preferene
+  hosts: frontend
+  vars:
+    full_name: "nagu from play"
+  vars_files:
+  - course.yaml
+  vars_prompt:
+  - name: full_name
+    prompt: "please enter your full_name"
+    private: false
+  tasks:
+  - name: print vars preferene
+    vars:
+      full_name: "nagu from TASK level"
+    debug:
+      msg: "HI, {{ full_name }}"
