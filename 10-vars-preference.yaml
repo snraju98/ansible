@@ -11,6 +11,10 @@
   tasks:
   - name: print vars preferene
     vars:
-      full_name: "nagu from TASK level"
+     # full_name: "nagu from TASK level"
     debug:
       msg: "HI, {{ full_name }}"
+
+
+# 1.command args
+# 2. task level
