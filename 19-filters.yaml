@@ -7,7 +7,7 @@
       name: Ansible
       project: roboshop
       environment: dev
-    #full_name: Sivakumar Reddy M
+    full_name: NagaRaju S
     #ip_address: 178.90.78.17
     tagsList: [
         {
@@ -39,3 +39,11 @@
   - name: convert list to map
     debug:
       msg: "{{ tagsList | items2dict  }}"
+
+  - name: convert to uppercase
+    debug:
+      msg: "{{ full_name | upper }}"
+
+  - name: convert to lowercase
+    debug:
+      msg: "{{ full_name | lower }}"
