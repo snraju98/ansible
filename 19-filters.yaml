@@ -7,3 +7,7 @@
   - name: convert string to list
     debug:
       msg: "Topics are: {{ topics | split(',') }}"
+ 
+- name: det default value
+  debug:
+    msg: "HI {{ GREETING | default('Good Morning') }}"
