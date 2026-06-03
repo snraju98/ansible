@@ -8,6 +8,6 @@
     debug:
       msg: "Topics are: {{ topics | split(',') }}"
  
-- name: det default value
+- name: set default value
   debug:
     msg: "HI {{ GREETING | default('Good Morning') }}"
