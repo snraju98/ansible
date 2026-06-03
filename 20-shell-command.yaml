@@ -12,6 +12,7 @@
       msg: "{{ users_output }}"
   
   - name: listfiles
-    command: ls -ltr > /tmp/files.txt 
+    #command: ls -ltr > /tmp/files.txt 
+    shell: ls -ltr > /tmp/files.txt 
 
   
