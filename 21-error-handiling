@@ -1,7 +1,7 @@
 - name: demo on error handiling
   hosts: local
   connection: local
-  #become: yes
+  become: yes
   tasks:
   - name: check roboshop user exists or not
     command: id roboshop
